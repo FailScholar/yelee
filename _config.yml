@@ -17,7 +17,7 @@ menu:
 avatar: //static.lfdevelopment.cn/dev/indexpage/images/my.png
 
 # Small icon of Your site | 站点小图标地址
-favicon: /favicon.png
+favicon: //olmbmun8k.bkt.clouddn.com/favicon.ico
 
 # Internationalization | 主题语言
 ## Change Language in SITE's _config.yml | 在站点配置中切换语言
@@ -41,30 +41,30 @@ since: 2017
 
 subnav:
   Email: "mailto:2587038142@qq.com"
-  新浪微博: "sina weibo"
-  GitHub: "#"
-  V2EX: "#"
-  avatar : "#"
+  知乎: "https://www.zhihu.com/"
+  GitHub: "https://github.com/FailScholar/"
+  Facebook: "https://www.facebook.com/profile.php?id=100007776496425"
+  网易云音乐: "http://music.163.com/#/user/home?id=246512565"
+  QQ: "tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2587038142"
+  Coding: "http://www.lfdevelopment.cn"
   # RSS: "/atom.xml"
-  # 知乎: "zhihu"
+  # 知乎: "https://www.zhihu.com/"
   # 豆瓣: "douban"
   # 简书: "jianshu"
   # SegmentFault: ""
   # 博客园: "cnblogs"
   # CSDN: ""
   # Coding: ""
-  # 网易云音乐: "netease"
+  # 网易云音乐: "http://music.163.com/#/user/home?id=246512565"
   # 虾米音乐: "xiami"
   # bilibili: ""
   # AcFun: ""
   # niconico: ""
   # Quora: ""
-  # Facebook: "#"
+  # Facebook: "https://www.facebook.com/profile.php?id=100007776496425"
   # Google: "#"
   # Twitter: "#"
   # LinkedIn: "#"
-  # QQ: "#"
-  # 微信: "Wechat"
   # PayPal: "#"
   # StackOverflow: "#"
   # CodePen: ""
@@ -128,8 +128,8 @@ base_font_size: 16  #px, 16 - 24
 color_scheme: 
 
 highlight_style:
-  #on: true
-  inline_code: 1  # Value: 0 - 9 可选
+  on: true
+  inline_code: 3  # Value: 0 - 9 可选
   code_block: 1  # Value: 0 - 4 
   # Set inline_code to style highlight text
   # Chose a highlight theme for code block
@@ -137,8 +137,8 @@ highlight_style:
   # 通过 code_block 切换内置代码高亮配色主题
 
 blockquote_style:
-  #on: true
-  blockquote: 1  # Value: 0 - 7 可选
+  on: true
+  blockquote: 3  # Value: 0 - 7 可选
   # 自定义文章「引用部分」的样式
 
 # Headings Style | 标题风格
@@ -158,7 +158,7 @@ copyright: true
 toc:
   on: true
   list_number: true # 目录序号
-  max_depth: 3  # 1 - 6 (h1-h6) 目录最大级数
+  max_depth: 6  # 1 - 6 (h1-h6) 目录最大级数
   nowrap: false # Keep title on same line | 目录标题不换行
 
 # 是否开启主页及加载头像时的动画效果
@@ -183,12 +183,12 @@ tagcloud: true
 # Blogroll, Link exchange | 友情链接
 friends:
   Hexo: https://hexo.io
-  GitHub: https://pages.github.com/
-  MOxFIVE: http://moxfive.xyz/
+  GitHubPages: https://pages.github.com/
+  JoyLau: http://www.lfdevelopment.cn/
 #friends: false
 
 #是否开启“关于我”。
-aboutme: 专注于前端
+aboutme: 整理一些在项目中用到的小知识或者技术点做一个总结及叙述，希望通过这些记录，能够将自己的学习成果归纳出来，与大家分享交流，同时能够对这些技术进行备忘，以便日后查询
 #aboutme: false
 
 # Open link in a new tab | 是否在新窗口打开链接
@@ -221,8 +221,8 @@ ie_updater:
 # Tab Title Change | 标签页标题切换
 tab_title_change: 
   on: true
-  left_tab_title: '(つェ⊂) 我藏好了哦~ '
-  return_tab_title: '(*´∇｀*) 被你发现啦~ '
+  left_tab_title: '(つェ⊂) ~ '
+  return_tab_title: '(*´∇｀*) ~ '
 
 
 # >>> Vendors | 第三方工具 & 服务 <<<
@@ -231,7 +231,7 @@ tab_title_change:
 ## Insatall below plugin to take effect | 使用搜索需先安装对应插件
 ## https://github.com/PaicHyperionDev/hexo-generator-search
 search: 
-  #on: true
+  on: true
   onload: false
   ## true: get search.xml file when the page has loaded
   ## false: get the file when search box gets focus
